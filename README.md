@@ -27,16 +27,16 @@ Install the required packages using: `pip install neat-python pygame`
 
 ## Project Structure
 flappy-bird/
-├── flappy_player.py # Player-controlled version
-├── flappy_AI.py # AI-powered version
-├── config-feedforward.txt # NEAT configuration file
+├── flappy_player.py     # Player-controlled version
+├── flappy_AI.py         # AI-powered version
+├── config-feedforward.txt   # NEAT configuration file
 └── images/
-├── bird1.png
-├── bird2.png
-├── bird3.png
-├── base.png
-├── pipe.png
-└── bg.png
+    ├── bird1.png       # Bird animation frame 1
+    ├── bird2.png       # Bird animation frame 2
+    ├── bird3.png       # Bird animation frame 3
+    ├── base.png        # Ground texture
+    ├── pipe.png        # Pipe obstacle
+    └── bg.png          # Background image
 
 ## How to Play
 
@@ -76,6 +76,3 @@ The AI version uses the NEAT algorithm which:
 
 This implementation is based on the classic Flappy Bird game, with added AI capabilities using the NEAT-Python library.
 
-## License
-
-This project is open source and available under the MIT License.
