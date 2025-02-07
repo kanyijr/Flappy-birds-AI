@@ -193,8 +193,6 @@ def draw_window(win, bird, pipes, base, score):
 
 def main():
     """Main game loop"""
-    nets = []
-    ge = []
     bird = Bird(200, 350)
    
     base = Base(730)
